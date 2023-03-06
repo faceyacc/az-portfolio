@@ -46,7 +46,6 @@ const Sidebar = ({ children }) => {
             <Link className={styles.navbar_brand} href="/">
               <Image src="/logo.png" width={150} height={150} alt="az-logo" />
             </Link>
-            {/* END LOGO */}
           </div>
 
           <div className={styles.menu}>

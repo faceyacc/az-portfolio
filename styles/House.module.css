@@ -47,6 +47,7 @@
   margin: 0px;
   list-style-type: none;
 }
+
 .tokyo_tm_portfolio .portfolio_filter li {
   margin: 0px 25px 0px 0px;
   text-decoration: none;
@@ -58,25 +59,26 @@
   cursor: pointer;
   @media screen and (max-width: 767px) {
     margin: 0px 15px 0px 0px;
-  }
+  } 
 }
+
 .tokyo_tm_portfolio .portfolio_filter li:last-child {
   margin-right: 0px;
 }
 
 .tokyo_tm_portfolio .portfolio_filter li:hover,
-.tokyo_tm_portfolio
-  .portfolio_filter
-  li {
+.tokyo_tm_portfolio .portfolio_filter li {
   color: #000;
   letter-spacing: 2px;
 }
+
 .tokyo_tm_portfolio .list_wrapper {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
+
 .tokyo_tm_portfolio {
   width: 100%;
   height: auto;
@@ -86,44 +88,69 @@
 
   position: relative;
 }
+
 .tokyo_tm_portfolio .portfolio_list {
   margin: 0px 0px 0px -50px;
   list-style-type: none;
 }
 
-
 .tokyo_tm_portfolio .portfolio_list li {
-    margin: 0px 0px 50px 0px;
-    float: left;
-    width: 30%;
-    padding-left: 50px;
-    @media (max-width: 576px) {
-      margin: 0px 0px 30px 0px;
+  margin: 0px 0px 50px 0px;
+  float: left;
+  width: 30%;
+  padding-left: 50px;
+  @media (max-width: 576px) {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+.tokyo_tm_portfolio .portfolio_list li .inner {
+  width: 100%;
+  height: 100%;
+  clear: both;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.tokyo_tm_portfolio .portfolio_list li .inner a,
+.tokyo_tm_portfolio .portfolio_list li .inner .entry {
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    .img {
+      transform: scale(1.1);
     }
   }
-  .tokyo_tm_portfolio .portfolio_list li .inner {
-    width: 100%;
-    height: 100%;
-    clear: both;
-    float: left;
-    overflow: hidden;
-    position: relative;
-  }
-  .tokyo_tm_portfolio .portfolio_list li .inner a,
-  .tokyo_tm_portfolio .portfolio_list li .inner .entry {
-    position: relative;
-    overflow: hidden;
-    &:hover {
-      .img {
-        transform: scale(1.1);
-      }
-    }
-  }
-  .tokyo_tm_portfolio .portfolio_list li .inner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    cursor: pointer;
-    transition: 0.5s;
-    transform: scale(1.34);
-  }
+}
+
+.tokyo_tm_portfolio .portfolio_list li .inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.34);
+}
+
+.tokyo_tm_portfolio .absence_portfolio_view li {
+  list-style-type: none;
+}
+
+.tokyo_tm_portfolio .absence_portfolio_view img {
+  margin-left: 17%;
+  width: 65%;
+  height: 50%;
+  padding-bottom: 50px;
+  position: relative;
+  top: -30px;
+}
+
+.absence_title h3 {
+  align-items: center;
+  padding-left: 42%;
+}
+
+.quote_wrapper {
+  max-width: 90%;
+}

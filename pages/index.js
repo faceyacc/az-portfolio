@@ -10,15 +10,11 @@ export default function Home() {
       <div className={styles.tokyo_tm_home}>
         <div className={styles.home_content}>
           <div className={styles.avatar}>
-            {/* <Image src="/../public/assets/webanim.mp4" width={500} height={500} alt="bigweb" /> */}
-            {/* <video src={webanim} className={styles.videoContainer} autoPlay muted loop/> */}
-
-            <div
-              className="image avatar_img"
-            ><video src={webanim} className={styles.avatar} autoPlay muted loop/></div>
-            {/* END AVATAR IMAGE */}
+            <div className="image avatar_img">
+              <video src={webanim} className={styles.avatar} autoPlay muted loop/>
+            </div>
           </div>
-          {/* END AVATAR */}
+          
           <div className={styles.details}>
             <h3 className={styles.name}>A to Z Studio</h3>
             <p className={styles.job}>

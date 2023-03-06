@@ -3,7 +3,7 @@
 /*---------------------------------------------------*/
 
 .tokyo_tm_home .avatar {
-  min-width: 425px;
+  min-width: 4550px;
   min-height: 450px;
   position: relative;
   border-radius: 100%;
@@ -91,7 +91,7 @@
   font-family: "Poppins";
   font-style: italic;
   font-weight: 500;
-  max-width: 450px;
+  max-width: 100%;
   margin-bottom: 30px;
 }
 .tokyo_tm_home .social {

@@ -1,5 +1,8 @@
 import Image from "next/image";
 import styles from "@/styles/House.module.css";
+import { Tooltip } from '@nextui-org/react';
+// import { styled } from '../stitches.config';
+
 
 const House = () => {
   const photos = [
@@ -31,7 +34,11 @@ const House = () => {
               >
                 House
               </h3>
-              <p data-aos="fade-down" data-aos-duration="1200">
+              <p
+                className={styles.quote_wrapper}
+                data-aos="fade-down"
+                data-aos-duration="1200"
+              >
                 “The house has grown into a knowledgeable witness. It has been
                 party to early seductions, it has watched homework being
                 written, it has observed swaddled babies freshly arrived from
@@ -49,26 +56,37 @@ const House = () => {
         </div>
 
         <div className={styles.portfolio_filter}>
-          
-            {/* END TABLIST */}
-            <div className={styles.list_wrapper}>
-          
-                <div className={styles.portfolio_list}>
-                  {photos.map((photo) => (
-                    <li data-aos="fade-right" data-aos-duration="1200">
-                      <div className={styles.inner}>
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <a>
-                            <Image className={styles.img} src={photo.src} width={300} height={300} />
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                  ))}
-                </div>
-              
+          {/* END TABLIST */}
+          <div className={styles.list_wrapper}>
+            <div className={styles.portfolio_list}>
+              {photos.map((photo) => (
+                <li data-aos="fade-right" data-aos-duration="1200">
+                  <div className={styles.inner}>
+                    <div className="entry tokyo_tm_portfolio_animation_wrap">
+                      <a>
+                        <Tooltip css={{
+                            color: "black",
+                            backgroundColor: "white",
+                            marginTop: "200px",
+                            borderRadius: "0px",
+                        }}
+                        
+                        
+                        color="invert" hideArrow  content={photo.alt}>
+                          <Image
+                            className={styles.img}
+                            src={photo.src}
+                            width={300}
+                            height={300}
+                          />
+                        </Tooltip>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              ))}
             </div>
-          
+          </div>
         </div>
       </div>
     </>
