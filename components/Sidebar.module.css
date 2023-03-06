@@ -1,0 +1,392 @@
+.tokyo_tm_all_wrap {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+  }
+
+.tokyo_tm_all_wrap,
+.tokyo_tm_all_wrap * {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    text-decoration: none;
+}
+
+
+
+/*---------------------------------------------------*/
+/*	01 LEFTPART
+/*---------------------------------------------------*/
+
+
+.tokyo_tm_all_wrap .leftpart {
+    width: 450px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    padding: 0px 100px;
+    background-color: #fff;
+}
+
+.tokyo_tm_all_wrap .leftpart_inner {
+    width: 100%;
+    height: auto;
+}
+
+.tokyo_tm_all_wrap .leftpart img {
+    max-width: 150px;
+}
+  
+.tokyo_tm_all_wrap .leftpart .menu {
+    padding: 40px 0px 50px 0px;
+    width: 100%;
+    float: left;
+}
+
+.tokyo_tm_all_wrap .leftpart .menu ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+.tokyo_tm_all_wrap .leftpart .menu ul li {
+    margin: 0px;
+    width: 100%;
+    float: left;
+    text-decoration: none;
+    color: #767676;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "Poppins";
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 10px;
+    @media (max-width: 1200px) {
+      margin-bottom: 0;
+    }
+    .svg {
+      margin-right: 10px;
+      opacity: 0.7;
+      transition: all 0.3s ease;
+      @media (max-width: 1200px) {
+        margin-right: 0;
+      }
+    }
+}
+
+.tokyo_tm_all_wrap .leftpart .menu > ul li:hover {
+    color: #000;
+    letter-spacing: 2px;
+}
+  
+.tokyo_tm_all_wrap .leftpart .menu ul li.react-tabs__tab--selected {
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.dropdown_menu_container {
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 15px;    
+}
+
+.menu_content {
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 5px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+/*  */
+
+@media (max-width: 1600px) {
+    .leftpart {
+      width: 400px;
+    }
+  }
+
+
+
+
+
+  /*  */
+
+
+.tokyo_tm_all_wrap .rightpart {
+    width: 100%;
+    min-height: 100vh;
+    float: left;
+    position: relative;
+    background-color: #f8f8f8;
+    @media screen and (min-width: 1601px) {
+      padding-left: 450px;
+    }
+  }
+.tokyo_tm_all_wrap .rightpart_in {
+    position: relative;
+    width: 100%;
+    float: left;
+    clear: both;
+    border-left: 1px solid #ebebeb;
+    min-height: 100vh;
+  }
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0px 40px;
+    position: relative;
+    clear: both;
+  }  
+
+
+
+
+/*---------------------------------------------------*/
+/*	Mobile & Small Screens
+/*---------------------------------------------------*/
+
+@media (max-width: 1600px) {
+    .tokyo_tm_all_wrap .leftpart {
+      width: 400px;
+    }
+    .tokyo_tm_section {
+      padding-left: 400px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .tokyo_tm_mobile_menu {
+      display: block;
+    }
+    .tokyo_tm_section {
+      padding-left: 0px;
+    }
+    .tokyo_tm_all_wrap .leftpart {
+      position: fixed;
+      width: 100%;
+      height: auto;
+      padding: 0;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      z-index: 10;
+      background-color: #fff;
+      box-shadow: 0 0 30px rgba(62, 68, 125, 0.08);
+    }
+    .tokyo_tm_all_wrap .leftpart .leftpart_inner {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      @media screen and (max-width: 420px) {
+        padding: 20px 15px;
+      }
+    }
+    .tokyo_tm_all_wrap .leftpart .leftpart_inner .navbar-brand img {
+      max-width: 100px;
+    }
+    .tokyo_tm_all_wrap .leftpart .leftpart_inner .copyright {
+      display: none;
+    }
+    .tokyo_tm_all_wrap .leftpart .leftpart_inner .menu {
+      padding: 0;
+      width: auto;
+      float: none;
+    }
+    .tokyo_tm_all_wrap .leftpart .leftpart_inner .menu ul {
+      display: flex;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      background: #dedede;
+      height: 50px;
+      bottom: 0;
+      left: 0;
+    }
+    .tokyo_tm_all_wrap .leftpart .leftpart_inner .menu ul li {
+      display: flex;
+      margin-bottom: 10px;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 !important;
+      .svg {
+        display: block;
+      }
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      
+      .menu_content {
+        font-size: 13px;
+        display: inline-block;
+        margin-top: 5px;
+        line-height: 1;
+      }
+    
+    }
+    .tokyo_tm_all_wrap .rightpart {
+      padding-left: 0px;
+    }
+    .tokyo_tm_all_wrap .rightpart_in {
+      border-left: none;
+    }
+
+    .dropdown_menu_container {
+        padding-bottom: 250px;
+        padding-right: 13px;
+        font-size: 12px;
+    }
+  
+    .tokyo_tm_about,
+    .tokyo_tm_home,
+    .tokyo_tm_portfolio,
+    .tokyo_tm_contact,
+    .tokyo_tm_news {
+      padding-top: 140px;
+    }
+    .tokyo_tm_home {
+      padding-bottom: 120px;
+    }
+    .tokyo_tm_modalbox_news .close a {
+      color: #000;
+    }
+    .tokyo_tm_modalbox_news .close {
+      left: auto;
+      right: 5px;
+      top: 25px;
+    }
+    .tokyo_tm_modalbox_news .close .svg {
+      width: 25px;
+      height: 25px;
+    }
+    .tokyo_tm_modalbox_about .close a {
+      color: #000;
+    }
+    .tokyo_tm_modalbox_about .close {
+      left: auto;
+      right: 5px;
+      top: 25px;
+    }
+    .tokyo_tm_modalbox_about .close .svg {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .not-found-wrapper .tokyo_tm_error {
+      height: calc(100vh + 70px);
+    }
+  }
+  @media (max-width: 1040px) {
+    .mouse-cursor {
+      display: none;
+    }
+    .tokyo_tm_mobile_menu .menu_inner {
+      padding: 20px;
+    }
+    .tokyo_tm_home .home_content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .tokyo_tm_home .avatar {
+      margin-bottom: 30px;
+    }
+    .tokyo_tm_home .details {
+      margin-left: 0px;
+    }
+    .tokyo_tm_about .description_inner {
+      flex-direction: column;
+    }
+    .tokyo_tm_about .description .left {
+      width: 100%;
+      padding: 0px;
+      margin-bottom: 50px;
+    }
+    .tokyo_tm_about .description .right {
+      width: 100%;
+      padding: 0px;
+    }
+    .tokyo_tm_title .title_flex {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .tokyo_tm_title .portfolio_filter {
+      padding-top: 48px;
+    }
+    .tokyo_tm_modalbox_news .description_wrap {
+      padding: 40px 25px;
+    }
+    .tokyo_tm_modalbox_about .description_wrap {
+      padding: 90px 25px 60px;
+    }
+    .tokyo_tm_modalbox_about .my_box {
+      flex-direction: column;
+    }
+    .tokyo_tm_modalbox_about .my_box .left {
+      width: 100%;
+      padding-right: 0px;
+      margin-bottom: 50px;
+    }
+    .tokyo_tm_modalbox_about .my_box .right {
+      width: 100%;
+      padding-left: 0px;
+    }
+    .container {
+      padding: 0px 20px;
+    }
+  }
+  @media (max-width: 767px) {
+    .tokyo_tm_home .details .name {
+      font-size: 35px;
+    }
+    .tokyo_tm_modalbox_news .description_wrap .image {
+      height: 280px;
+    }
+    .tokyo_tm_home .avatar {
+      min-width: 400px;
+      min-height: 400px;
+    }
+    .tokyo_tm_portfolio .portfolio_list {
+      margin: 0px;
+    }
+    .tokyo_tm_portfolio .portfolio_list li {
+      width: 100%;
+      padding-left: 0px;
+    }
+    .tokyo_tm_news ul {
+      margin: 0px;
+    }
+    .tokyo_tm_news ul li {
+      width: 100%;
+      padding-left: 0px;
+    }
+    .tokyo_tm_modalbox_about .description_wrap {
+      padding: 60px 25px 30px;
+    }
+    .tokyo_tm_modalbox_news .main_content .icon {
+      position: relative;
+      margin-bottom: 30px;
+    }
+    .tokyo_tm_modalbox_news .main_content .quotebox {
+      padding-left: 0px;
+    }
+    .tokyo_tm_modalbox_about .counter ul {
+      margin: 0px;
+    }
+    .tokyo_tm_modalbox_about .counter ul li {
+      width: 100%;
+      padding-left: 0px;
+    }
+  
+    .not-found-wrapper .tokyo_tm_error {
+    }
+  }
