@@ -3,18 +3,18 @@ import styles from "@/styles/House.module.css";
 
 const House = () => {
   const photos = [
-    { src: "/../public/assets/house_series/h1.png", alt: "House No. 1" },
-    { src: "/../public/assets/house_series/h2.png", alt: "House No. 2" },
-    { src: "/../public/assets/house_series/h3.png", alt: "House No. 3" },
-    { src: "/../public/assets/house_series/h4.png", alt: "House No. 4" },
-    { src: "/../public/assets/house_series/h5.png", alt: "House No. 5" },
-    { src: "/../public/assets/house_series/h6.png", alt: "House No. 6" },
-    { src: "/../public/assets/house_series/h7.png", alt: "House No. 7" },
-    { src: "/../public/assets/house_series/h8.png", alt: "House No. 8" },
-    { src: "/../public/assets/house_series/h9.png", alt: "House No. 9" },
-    { src: "/../public/assets/house_series/h10.png", alt: "House No. 10" },
-    { src: "/../public/assets/house_series/h11.png", alt: "House No. 11" },
-    { src: "/../public/assets/house_series/h12.png", alt: "House No. 12" },
+    { src: "/assets/house_series/h1.png", alt: "House No. 1" },
+    { src: "/assets/house_series/h2.png", alt: "House No. 2" },
+    { src: "/assets/house_series/h3.png", alt: "House No. 3" },
+    { src: "/assets/house_series/h4.png", alt: "House No. 4" },
+    { src: "/assets/house_series/h5.png", alt: "House No. 5" },
+    { src: "/assets/house_series/h6.png", alt: "House No. 6" },
+    { src: "/assets/house_series/h7.png", alt: "House No. 7" },
+    { src: "/assets/house_series/h8.png", alt: "House No. 8" },
+    { src: "/assets/house_series/h9.png", alt: "House No. 9" },
+    { src: "/assets/house_series/h10.png", alt: "House No. 10" },
+    { src: "/assets/house_series/h11.png", alt: "House No. 11" },
+    { src: "/assets/house_series/h12.png", alt: "House No. 12" },
   ];
 
   return (
