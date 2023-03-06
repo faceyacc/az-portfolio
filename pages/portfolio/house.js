@@ -1,4 +1,5 @@
 import Image from "next/image";
+import styles from "@/styles/House.module.css";
 
 const House = () => {
   const photos = [
@@ -18,13 +19,13 @@ const House = () => {
 
   return (
     <>
-      <div className="tokyo_tm_portfolio">
-        <div className="tokyo_tm_title">
-          <div className="series_title">
-            <div className="left">
+      <div className={styles.tokyo_tm_portfolio}>
+        <div className={styles.tokyo_tm_title}>
+          <div className={styles.series_title}>
+            <div className={styles.left}>
               {/* <span>House Series</span> */}
               <h3
-                className="series_title"
+                className={styles.series_title}
                 data-aos="fade-down"
                 data-aos-duration="1200"
               >
@@ -47,18 +48,18 @@ const House = () => {
           </div>
         </div>
 
-        <div className="portfolio_filter">
+        <div className={styles.portfolio_filter}>
           
             {/* END TABLIST */}
-            <div className="list_wrapper">
+            <div className={styles.list_wrapper}>
           
-                <div className="portfolio_list">
+                <div className={styles.portfolio_list}>
                   {photos.map((photo) => (
                     <li data-aos="fade-right" data-aos-duration="1200">
-                      <div className="inner">
+                      <div className={styles.inner}>
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <a>
-                            <Image src={photo.src} width={300} height={300} />
+                            <Image className={styles.img} src={photo.src} width={300} height={300} />
                           </a>
                         </div>
                       </div>
