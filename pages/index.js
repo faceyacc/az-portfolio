@@ -10,7 +10,7 @@ export default function Home() {
       <div className={styles.tokyo_tm_home}>
         <div className={styles.home_content}>
           <div className={styles.avatar}>
-            <div className="image avatar_img">
+            <div className={styles.image}>
               <video src={webanim} className={styles.avatar} autoPlay muted loop/>
             </div>
           </div>
