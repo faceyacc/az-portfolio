@@ -6,6 +6,13 @@
   margin-bottom: 62px;
 }
 
+.left{
+  line-height: 25px;
+  line-height: 27px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .tokyo_tm_title h3 {
   font-weight: 300;
   font-family: "Poppins";
@@ -163,4 +170,43 @@
     width: 100%;
     padding-left: 0px;
   }
+
+
+  .left  {
+    margin-top: 20%;
+    width: 150%;
+    text-align: justify;
+    line-height: 25px;
+    font-weight: 300;
+  }
+
 }
+
+
+
+
+@media (max-width: 1040px) {
+
+
+  .left  {
+    margin-top: 20%;
+    width: 150%;
+    text-align: justify;
+    line-height: 25px;
+    font-weight: 300;
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+
+  .left  {
+    margin-top: 20%;
+    width: 150%;
+    text-align: justify;
+    line-height: 25px;
+    font-weight: 300;
+  }
+}
+
