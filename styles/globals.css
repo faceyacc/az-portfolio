@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-video::-webkit-media-controls {
-  display:none !important;
-}
-
 html {
   overflow-x: hidden;
   padding: 0px;

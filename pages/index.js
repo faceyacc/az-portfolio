@@ -15,7 +15,12 @@ export default function Home() {
           <div className={styles.avatar}>
             <div className={styles.image}>
               {/* <Image src={bia} className={styles.avatar}/> */}
-              <video src={webanim} autoPlay loop />
+              
+              {/* <video autoPlay loop src={webanim} /> */}
+              <video autoPlay loop muted style={{ width: '500px', height: '500px' }}>
+                <source src={webanim} type="video/mp4" />
+              </video>
+              
             </div>
           </div>
           
