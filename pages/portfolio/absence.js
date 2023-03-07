@@ -38,6 +38,7 @@ const Absence = () => {
                       <div>
                         <a>
                           <Tooltip
+                            hideArrow
                             content={photo.alt}
                             css={{
                               color: "black",

@@ -16,7 +16,7 @@ const Absence = () => {
         {/* END TITLE */}
 
         <div className={styles.fields}>
-          <form className="contact_form">
+          <form>
             <div className={styles.first}>
               <ul>
                 <li>
