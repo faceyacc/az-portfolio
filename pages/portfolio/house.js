@@ -40,7 +40,6 @@ const House = () => {
                 </h3>
 
                 <p
-                  className={styles.quote_wrapper}
                   data-aos="fade-down"
                   data-aos-duration="1200"
                 >
@@ -69,7 +68,7 @@ const House = () => {
               {photos.map((photo) => (
                 <li data-aos="fade-right" data-aos-duration="1200">
                   <div className={styles.inner}>
-                    <div className="entry tokyo_tm_portfolio_animation_wrap">
+                    <div className={styles.entry}>
                       <a>
                         <Tooltip
                           css={{

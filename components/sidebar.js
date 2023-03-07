@@ -2,13 +2,11 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
-import styles from './Sidebar.module.css';
-
+import styles from "./Sidebar.module.css";
 
 const Sidebar = ({ children }) => {
-
   // Hover dropdown menu
-  const [isHover, toggleHover] = useState(false)
+  const [isHover, toggleHover] = useState(false);
 
   const toggleHoverMenu = () => {
     toggleHover(!isHover);
@@ -19,28 +17,26 @@ const Sidebar = ({ children }) => {
       opacity: 1,
       rotateX: 0,
       transition: {
-        duration: 0.3
+        duration: 0.3,
       },
-      display: "block"
+      display: "block",
     },
     exit: {
       opacity: 0,
       rotateX: -15,
       transition: {
         duration: 0.5,
-        delay: 0.3
+        delay: 0.3,
       },
       transitionEnd: {
-        display: "none"
-      }
-    }
+        display: "none",
+      },
+    },
   };
-
 
   return (
     <div className={styles.tokyo_tm_all_wrap}>
       <div className={styles.leftpart}>
-
         <div className={styles.leftpart_inner}>
           <div className="logo">
             <Link className={styles.navbar_brand} href="/">
@@ -54,7 +50,7 @@ const Sidebar = ({ children }) => {
                 <Link href="/">
                   <span className={styles.menu_content}> Home </span>
                 </Link>
-              </li> 
+              </li>
               <motion.div
                 className="menu-item"
                 onHoverStart={toggleHoverMenu}
@@ -62,7 +58,7 @@ const Sidebar = ({ children }) => {
               >
                 <li>
                   <span className={styles.menu_content}> Series </span>
-                </li> 
+                </li>
                 <motion.div
                   className="sub-menu"
                   initial="exit"
@@ -70,8 +66,12 @@ const Sidebar = ({ children }) => {
                   variants={subMenuAnimate}
                 >
                   <div className={styles.dropdown_menu_container}>
-                    <li><Link href="/portfolio/house">House</Link></li>
-                    <li><Link href="/portfolio/absence" >Absence</Link></li>
+                    <li>
+                      <Link href="/portfolio/house">House</Link>
+                    </li>
+                    <li>
+                      <Link href="/portfolio/absence">Absence</Link>
+                    </li>
                   </div>
                 </motion.div>
               </motion.div>
@@ -84,17 +84,16 @@ const Sidebar = ({ children }) => {
           </div>
         </div>
       </div>
-        <div className={styles.rightpart}>
-          <div className={styles.rightpart_in}>
-            <div className={styles.container}>
-              {children}
-            </div>
+
+      <div className={styles.rightpart}>
+        <div className={styles.rightpart_in}>
+          <div className={styles.tokyo_tm_section}>
+          <div className={styles.container}>{children}</div>
           </div>
         </div>
+      </div>
     </div>
+  );
+};
 
-
-  )
-}
-
-export default Sidebar
+export default Sidebar;
