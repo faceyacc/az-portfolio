@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import webanim from '../public/assets/webanim.mp4';
+import bia from '../public/assets/BIA1.gif';
+import Image from "next/image";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +13,7 @@ export default function Home() {
         <div className={styles.home_content}>
           <div className={styles.avatar}>
             <div className={styles.image}>
-              <video src={webanim} className={styles.avatar} autoPlay muted loop/>
+              <Image src={bia} className={styles.avatar}/>
             </div>
           </div>
           
