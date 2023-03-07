@@ -17,7 +17,7 @@ export default function Home() {
               {/* <Image src={bia} className={styles.avatar}/> */}
               
               {/* <video autoPlay loop src={webanim} /> */}
-              <video autoPlay playsinline={true} loop muted style={{ width: '500px', height: '500px' }}>
+              <video autoPlay loop muted style={{ width: '500px', height: '500px' }}>
                 <source src={webanim} type="video/mp4" />
               </video>
               
