@@ -353,10 +353,10 @@
 
 
   .sub_menue {
-    position: absolute;
-    bottom: 57px;
-    height: 80px;
-    right: 38%;
+    /* position: absolute; */
+    /* bottom: 57px; */
+    /* height: 80px; */
+    right: 35%;
     /* padding: 15px; */
     background-color: #ccc;
     border-radius: 6px;
