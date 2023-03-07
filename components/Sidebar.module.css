@@ -157,9 +157,21 @@
   }
 }
 @media (max-width: 1200px) {
+
+  .sub_menue {
+    position: absolute;
+    bottom: 57px;
+    height: 80px;
+    right: 45%;
+    /* padding: 15px; */
+    background-color: #ccc;
+    border-radius: 6px;
+  }
+
+
   .tokyo_tm_all_wrap .leftpart img {
-  max-width: 100px;
-}
+    max-width: 90px;
+  }
   .tokyo_tm_mobile_menu {
     display: block;
   }
@@ -338,6 +350,18 @@
   }
 }
 @media (max-width: 767px) {
+
+
+  .sub_menue {
+    position: absolute;
+    bottom: 57px;
+    height: 80px;
+    right: 38%;
+    /* padding: 15px; */
+    background-color: #ccc;
+    border-radius: 6px;
+  }
+
   .tokyo_tm_home .details .name {
     font-size: 35px;
   }

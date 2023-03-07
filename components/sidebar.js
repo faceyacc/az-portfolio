@@ -61,7 +61,7 @@ const Sidebar = ({ children }) => {
                   <span className={styles.menu_content}> Series </span>
                 </li>
                 <motion.div
-                  className="sub-menu"
+                  className={styles.sub_menue}
                   initial="exit"
                   animate={isHover ? "enter" : "exit"}
                   variants={subMenuAnimate}
