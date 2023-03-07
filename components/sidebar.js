@@ -40,7 +40,8 @@ const Sidebar = ({ children }) => {
         <div className={styles.leftpart_inner}>
           <div className="logo">
             <Link className={styles.navbar_brand} href="/">
-              <Image src="/logo.png" height={200} width={200} alt="az-logo" />
+              {/* <Image src="/logo.png" height={200} width={200} alt="az-logo" /> */}
+              <img src="/logo.png"/>
             </Link>
           </div>
 
