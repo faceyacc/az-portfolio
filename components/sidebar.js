@@ -3,6 +3,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
 import styles from "./Sidebar.module.css";
+import { Tooltip } from "@nextui-org/react";
+
 
 const Sidebar = ({ children }) => {
   // Hover dropdown menu
@@ -10,6 +12,11 @@ const Sidebar = ({ children }) => {
 
   const toggleHoverMenu = () => {
     toggleHover(!isHover);
+  };
+
+  const [isMouse, toggleMouse] = React.useState(false);
+  const toggleMouseMenu = () => {
+    toggleMouse(!isMouse);
   };
 
   const subMenuAnimate = {
@@ -54,8 +61,8 @@ const Sidebar = ({ children }) => {
               </li>
               <motion.div
                 className="menu-item"
-                onHoverStart={toggleHoverMenu}
-                onHoverEnd={toggleHoverMenu}
+                onHoverStart={toggleMouseMenu}
+                onHoverEnd={toggleMouseMenu}
               >
                 <li>
                   <span className={styles.menu_content}> Series </span>
@@ -63,7 +70,7 @@ const Sidebar = ({ children }) => {
                 <motion.div
                   className={styles.sub_menue}
                   initial="exit"
-                  animate={isHover ? "enter" : "exit"}
+                  animate={isMouse ? "enter" : "exit"}
                   variants={subMenuAnimate}
                 >
                   <div className={styles.dropdown_menu_container}>
