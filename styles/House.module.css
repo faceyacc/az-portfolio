@@ -154,3 +154,13 @@
 .quote_wrapper {
   max-width: 90%;
 }
+
+@media (max-width: 767px) {
+  .tokyo_tm_portfolio .portfolio_list {
+    margin: 0px;
+  }
+  .tokyo_tm_portfolio .portfolio_list li {
+    width: 100%;
+    padding-left: 0px;
+  }
+}

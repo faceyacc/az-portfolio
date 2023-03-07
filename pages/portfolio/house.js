@@ -90,8 +90,8 @@ const House = () => {
                             <Image
                               className={styles.img}
                               src={photo.src}
-                              width={300}
-                              height={300}
+                              width={1000}
+                              height={1000}
                             />
                           </motion.div>
                         </Tooltip>
