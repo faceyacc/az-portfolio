@@ -1,3 +1,4 @@
+
 .tokyo_tm_home {
     width: 100%;
     min-height: 100vh;
@@ -47,3 +48,36 @@
     max-width: 450px;
     margin-bottom: 30px;
   }
+
+
+/*---------------------------------------------------*/
+/* MEDIA QUERIES - FOR SMALL DEVIVES
+/*---------------------------------------------------*/
+
+@media (max-width: 1600px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1040px) {
+
+    .tokyo_tm_home .home_content {
+        flex-direction: column;
+        text-align: center;
+      }
+      .tokyo_tm_home .avatar {
+        margin-bottom: 30px;
+      }
+      .tokyo_tm_home .details {
+        margin-left: 0px;
+      }
+}
+
+@media (max-width: 767px) {
+    .tokyo_tm_home .details .name {
+        font-size: 35px;
+      }
+      .tokyo_tm_home .avatar {
+        min-width: 400px;
+        min-height: 400px;
+      }
+}
