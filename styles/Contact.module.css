@@ -1,0 +1,174 @@
+.tokyo_tm_title {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 62px;
+  }
+  .tokyo_tm_title h3 {
+    font-weight: 300;
+    font-family: "Poppins";
+  }
+  .tokyo_tm_title span {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.04);
+    text-transform: uppercase;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #333;
+    font-family: "Poppins";
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+  }
+  .tokyo_tm_title .title_flex {
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+
+.tokyo_tm_contact {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  padding: 100px 0px 100px 0px;
+}
+.tokyo_tm_contact .map_wrap {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  margin-bottom: 50px;
+}
+.tokyo_tm_contact .map_wrap .map > div {
+  height: 400px !important;
+  width: 100% !important;
+}
+.tokyo_tm_contact .map_wrap .map iframe {
+  width: 100%;
+  height: 100%;
+}
+.tokyo_tm_contact .fields {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+.tokyo_tm_contact .fields .first {
+  width: 100%;
+  float: left;
+}
+.tokyo_tm_contact .fields ul {
+  margin: 0px;
+  list-style-type: none;
+}
+.tokyo_tm_contact .fields ul li {
+  width: 100%;
+  margin: 0px 0px 30px 0px;
+  float: left;
+}
+ .fields ul li input {
+  padding: 10px 15px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  font-style: italic;
+  margin-right: 500px;
+}
+
+ .fields ul li input:focus {
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+ .fields textarea {
+  padding: 10px 15px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 120px;
+  font-style: italic;
+  resize: none;
+  background-color: transparent;
+}
+ .fields textarea:focus {
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.tokyo_tm_contact ul li span {
+  color: #f52225;
+  text-align: left;
+  font-weight: 300;
+}
+.tokyo_tm_contact .returnmessage {
+  color: #3a00ff;
+  margin-bottom: 7px;
+  text-align: left;
+  font-weight: 300;
+}
+
+  
+.tokyo_tm_contact {
+  padding-top: 140px;
+}
+
+.tokyo_tm_title .title_flex {
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+
+  .ib_button {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: #000;
+    padding: 9px 40px 14px 40px;
+  
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .ib_button {
+    font-size: 15px;
+    line-height: 15px;
+    padding: 19px 40px;
+    border: none;
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+  .tokyo_tm_button a:hover,
+  .ib_button:hover {
+    letter-spacing: 2px;
+  }
+
+
+@media (max-width: 576px) {
+    .tokyo_tm_contact {
+      padding-bottom: 100px;
+    }
+  }
+
+  @media (max-width: 1040px) {
+    .tokyo_tm_title .title_flex {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  @media (max-width: 1600px) {
+    .tokyo_tm_all_wrap .leftpart {
+      width: 400px;
+    }}

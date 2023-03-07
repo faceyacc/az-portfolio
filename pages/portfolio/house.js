@@ -1,8 +1,7 @@
 import Image from "next/image";
 import styles from "@/styles/House.module.css";
-import { Tooltip } from '@nextui-org/react';
-// import { styled } from '../stitches.config';
-
+import { Tooltip } from "@nextui-org/react";
+import { motion } from "framer-motion";
 
 const House = () => {
   const photos = [
@@ -27,30 +26,38 @@ const House = () => {
           <div className={styles.series_title}>
             <div className={styles.left}>
               {/* <span>House Series</span> */}
-              <h3
-                className={styles.series_title}
-                data-aos="fade-down"
-                data-aos-duration="1200"
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 2 }}
               >
-                House
-              </h3>
-              <p
-                className={styles.quote_wrapper}
-                data-aos="fade-down"
-                data-aos-duration="1200"
-              >
-                “The house has grown into a knowledgeable witness. It has been
-                party to early seductions, it has watched homework being
-                written, it has observed swaddled babies freshly arrived from
-                hospital, it has been surprised in the middle of the night by
-                whispered conferences in the kitchen. It has experienced winter
-                evenings when its windows were as cold as bags of frozen peas
-                and midsummer dusks when its brick walls held the warmth of
-                newly baked bread”.
-              </p>
-              <p data-aos="fade-down" data-aos-duration="1200">
-                - Alain de Botton
-              </p>
+                <h3
+                  className={styles.series_title}
+                  data-aos="fade-down"
+                  data-aos-duration="1200"
+                >
+                  House
+                </h3>
+
+                <p
+                  className={styles.quote_wrapper}
+                  data-aos="fade-down"
+                  data-aos-duration="1200"
+                >
+                  “The house has grown into a knowledgeable witness. It has been
+                  party to early seductions, it has watched homework being
+                  written, it has observed swaddled babies freshly arrived from
+                  hospital, it has been surprised in the middle of the night by
+                  whispered conferences in the kitchen. It has experienced
+                  winter evenings when its windows were as cold as bags of
+                  frozen peas and midsummer dusks when its brick walls held the
+                  warmth of newly baked bread”.
+                </p>
+
+                <p data-aos="fade-down" data-aos-duration="1200">
+                  - Alain de Botton
+                </p>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -64,21 +71,29 @@ const House = () => {
                   <div className={styles.inner}>
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
                       <a>
-                        <Tooltip css={{
+                        <Tooltip
+                          css={{
                             color: "black",
                             backgroundColor: "white",
                             marginTop: "200px",
                             borderRadius: "0px",
-                        }}
-                        
-                        
-                        color="invert" hideArrow  content={photo.alt}>
-                          <Image
-                            className={styles.img}
-                            src={photo.src}
-                            width={300}
-                            height={300}
-                          />
+                          }}
+                          color="invert"
+                          hideArrow
+                          content={photo.alt}
+                        >
+                          <motion.div
+                            transition={{ duration: 2 }}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                          >
+                            <Image
+                              className={styles.img}
+                              src={photo.src}
+                              width={300}
+                              height={300}
+                            />
+                          </motion.div>
                         </Tooltip>
                       </a>
                     </div>
