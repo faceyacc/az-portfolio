@@ -61,8 +61,9 @@ const Sidebar = ({ children }) => {
               </li>
               <motion.div
                 className="menu-item"
-                onHoverStart={toggleMouseMenu}
-                onHoverEnd={toggleMouseMenu}
+                onClick={toggleMouseMenu}
+                // onHoverStart={toggleMouseMenu}
+                // onHoverEnd={toggleMouseMenu}
               >
                 <li>
                   <span className={styles.menu_content}> Series </span>
