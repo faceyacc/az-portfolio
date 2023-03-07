@@ -2,6 +2,10 @@ import Image from "next/image";
 import styles from "@/styles/House.module.css";
 import { Tooltip } from "@nextui-org/react";
 import { motion } from "framer-motion";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 
 const House = () => {
   const photos = [
@@ -26,11 +30,6 @@ const House = () => {
           <div className={styles.series_title}>
             <div className={styles.left}>
               {/* <span>House Series</span> */}
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 2 }}
-              >
                 <h3
                   className={styles.series_title}
                   data-aos="fade-down"
@@ -56,7 +55,6 @@ const House = () => {
                 <p data-aos="fade-down" data-aos-duration="1200">
                   - Alain de Botton
                 </p>
-              </motion.div>
             </div>
           </div>
         </div>

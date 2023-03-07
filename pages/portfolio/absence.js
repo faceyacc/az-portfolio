@@ -1,6 +1,9 @@
 import styles from "@/styles/House.module.css";
 import { Tooltip } from "@nextui-org/react";
 import { motion } from "framer-motion";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Absence = () => {
   const photos = [
@@ -11,11 +14,7 @@ const Absence = () => {
 
   return (
     <>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 2 }}
-      >
+ 
         <div className={styles.tokyo_tm_portfolio}>
           <div className={styles.tokyo_tm_title}>
             <div className={styles.absence_title}>
@@ -63,7 +62,7 @@ const Absence = () => {
             </div>
           </div>
         </div>
-      </motion.div>
+      
     </>
   );
 };
