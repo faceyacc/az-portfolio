@@ -157,6 +157,9 @@
   }
 }
 @media (max-width: 1200px) {
+  .tokyo_tm_all_wrap .leftpart img {
+  max-width: 100px;
+}
   .tokyo_tm_mobile_menu {
     display: block;
   }
