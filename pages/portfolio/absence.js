@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 const Absence = () => {
   const photos = [
-    { src: "/assets/absence/oil.png", alt: "House No. 1" },
-    { src: "/assets/absence/matches.png", alt: "House No. 2" },
-    { src: "/assets/absence/wood.png", alt: "House No. 3" },
+    { src: "/assets/absence/oil.png", alt: "0 0 0" },
+    { src: "/assets/absence/matches.png", alt: "18 62 1" },
+    { src: "/assets/absence/wood.png", alt: "255 108 0" },
   ];
 
   return (
@@ -37,8 +37,8 @@ const Absence = () => {
                             hideArrow
                             content={photo.alt}
                             css={{
-                              color: "black",
-                              backgroundColor: "white",
+                              color: "white",
+                              backgroundColor: "black",
                               marginTop: "40%",
                               borderRadius: "0px",
                             }}
