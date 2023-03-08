@@ -31,7 +31,7 @@ export default function Home() {
               animate, and together, we are A to Z Studio. Welcome to our
               multifaceted and explorative studio where we combine our love for
               art, design, animation & more! We are an artist-duo that enjoys
-              creating and building anything between the letters A to Z. Test
+              creating and building anything between the letters A to Z.
             </p>
           </div>
         </div>

@@ -5,6 +5,9 @@
   float: left;
   margin-bottom: 62px;
 }
+.closed_comissions {
+  padding: 100px 0px 100px 0px !important;
+}
 
 .tokyo_tm_title h3 {
   font-weight: 300;
