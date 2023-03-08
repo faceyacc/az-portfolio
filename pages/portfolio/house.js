@@ -31,7 +31,7 @@ const House = () => {
             <div>
               {/* <span>House Series</span> */}
                 <h3
-                  className={styles.series_title}
+                  className={styles.series_title_w}
                   data-aos="fade-down"
                   data-aos-duration="1200"
                 >
