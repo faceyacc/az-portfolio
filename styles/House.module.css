@@ -10,9 +10,9 @@
   font-family: "Poppins";
 }
 
-.series_title h3 {
+/* .series_title h3 {
   margin-left: 40%;
-}
+} */
 
 .tokyo_tm_title p {
     font-weight: 300;
@@ -220,12 +220,12 @@
     .tokyo_tm_portfolio {
         padding-bottom: 70px;
       }
-      .series_title h3 {
+      /* .series_title h3 {
         margin-left: 37%;
       }
       .series_title p {
         margin-left: 4%;
-      }
+      } */
 
 
       .absence_title h3 {
