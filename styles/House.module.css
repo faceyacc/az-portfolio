@@ -115,7 +115,9 @@
 }
 
 .absence_title h3 {
-  padding-left: 42%;
+  position: absolute;
+  margin-top: -1%;
+  margin-left: 40%;
 }
 
 .tokyo_tm_portfolio .portfolio_list li {
@@ -230,8 +232,9 @@
         margin-top: 5%;
       }
 
-
       .absence_title h3 {
-        margin-right: 10%;
+        position: absolute;
+        margin-top: -1%;
+        margin-left: 32%;
       }
 }
