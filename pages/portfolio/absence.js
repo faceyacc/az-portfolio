@@ -15,7 +15,7 @@ const Absence = () => {
         <div className={styles.tokyo_tm_portfolio}>
           <div className={styles.tokyo_tm_title}>
             <div className={styles.absence_title}>
-              <div className={styles.left}>
+              <div>
                 <h3 data-aos="fade-down" data-aos-duration="1200">
                   Absence
                 </h3>

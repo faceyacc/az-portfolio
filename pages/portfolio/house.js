@@ -2,6 +2,9 @@ import Image from "next/image";
 import styles from "@/styles/House.module.css";
 import { Tooltip } from "@nextui-org/react";
 import { motion } from "framer-motion";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// AOS.init();
 
 
 const House = () => {
@@ -25,7 +28,7 @@ const House = () => {
       <div className={styles.tokyo_tm_portfolio}>
         <div className={styles.tokyo_tm_title}>
           <div className={styles.series_title}>
-            <div className={styles.left}>
+            <div>
               {/* <span>House Series</span> */}
                 <h3
                   className={styles.series_title}

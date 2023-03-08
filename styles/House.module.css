@@ -7,22 +7,20 @@
 }
 .tokyo_tm_title h3 {
   font-weight: 300;
-  /* margin-left: 40%; */
   font-family: "Poppins";
 }
 
-/* .series_title h3 {
-  align-items: center;
-} */
+.series_title h3 {
+  margin-left: 40%;
+}
 
 .tokyo_tm_title p {
     font-weight: 300;
     font-size: 14px;
     font-family: "Poppins";
-    /* text-align: center;
-    width: 90%; */
+    text-align: center;
+    width: 90%;
   }
-
 
 .tokyo_tm_title span {
   display: inline-block;
@@ -116,7 +114,6 @@
 }
 
 .absence_title h3 {
-  align-items: center;
   padding-left: 42%;
 }
 
@@ -222,5 +219,16 @@
 @media (max-width: 576px) {
     .tokyo_tm_portfolio {
         padding-bottom: 70px;
+      }
+      .series_title h3 {
+        margin-left: 37%;
+      }
+      .series_title p {
+        margin-left: 4%;
+      }
+
+
+      .absence_title h3 {
+        margin-right: 10%;
       }
 }
