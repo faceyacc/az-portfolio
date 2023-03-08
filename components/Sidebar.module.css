@@ -170,7 +170,7 @@
 
 
   .tokyo_tm_all_wrap .leftpart img {
-    max-width: 90px;
+    max-width: 55px;
   }
   .tokyo_tm_mobile_menu {
     display: block;
@@ -402,8 +402,5 @@
   .tokyo_tm_modalbox_about .counter ul li {
     width: 100%;
     padding-left: 0px;
-  }
-
-  .not-found-wrapper .tokyo_tm_error {
   }
 }
