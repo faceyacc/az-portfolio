@@ -28,10 +28,10 @@ const House = () => {
       <div className={styles.tokyo_tm_portfolio}>
         <div className={styles.tokyo_tm_title}>
           <div className={styles.series_title}>
-            <div>
+            <div className={styles.series_title_w}>
               {/* <span>House Series</span> */}
                 <h3
-                  className={styles.series_title_w}
+                  // className={styles.series_title_w}
                   data-aos="fade-down"
                   data-aos-duration="1200"
                 >
