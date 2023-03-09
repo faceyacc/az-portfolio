@@ -1,50 +1,3 @@
-.image_container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-top: 66.66%;
-  cursor: zoom-in;
-  margin: 50px 0;
-}
-
-.image_container.open {
-  cursor: zoom-out;
-}
-
-.image_container .shade {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none;
-  opacity: 0;
-  background: rgba(0, 0, 0, 0.9);
-}
-
-.image_container.open .shade {
-  pointer-events: auto;
-  opacity: 1;
-}
-
-.image_container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.image_container.open img {
-  position: fixed;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  margin: auto;
-}
-
 .tokyo_tm_title {
   width: 100%;
   height: auto;
@@ -62,13 +15,13 @@
 }
 
 .tokyo_tm_title p {
-  margin-top: 2%;
-  font-weight: 300;
-  font-size: 14px;
-  font-family: "Poppins";
-  text-align: center;
-  width: 90%;
-}
+    margin-top: 2%;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Poppins";
+    text-align: center;
+    width: 90%;
+  }
 
 .tokyo_tm_title span {
   display: inline-block;
@@ -152,10 +105,9 @@
 .tokyo_tm_portfolio .absence_portfolio_view li {
   list-style-type: none;
 }
-
 .tokyo_tm_portfolio .absence_portfolio_view img {
-  margin-left: 20%;
-  width: 57%;
+  margin-left: 17%;
+  width: 65%;
   height: 50%;
   padding-bottom: 50px;
   position: relative;
@@ -165,7 +117,7 @@
 .absence_title h3 {
   position: absolute;
   margin-top: -1%;
-  margin-left: 53%;
+  margin-left: 40%;
 }
 
 .tokyo_tm_portfolio .portfolio_list li {
@@ -228,35 +180,27 @@
   position: relative;
 }
 
+
+
+
 /*---------------------------------------------------*/
 /* MEDIA QUERIES - FOR SMALL DEVIVES
 /*---------------------------------------------------*/
 
 @media (max-width: 1200px) {
-  .tokyo_tm_portfolio {
-    padding-top: 140px;
-  }
+    .tokyo_tm_portfolio{
+      padding-top: 140px;
+    }
 }
 
 @media (max-width: 1040px) {
-  .tokyo_tm_title .title_flex {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .tokyo_tm_title .portfolio_filter {
-    padding-top: 48px;
-  }
-
-  .series_title .absence_title  h3 {
-    margin-left: 45%;
-  }
-
-  .tokyo_tm_portfolio .absence_portfolio_view img {
-    /* margin-left: 25%; */
-    width: 51%;
-  }
-
-
+    .tokyo_tm_title .title_flex {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .tokyo_tm_title .portfolio_filter {
+        padding-top: 48px;
+      }
 }
 
 @media (max-width: 767px) {
@@ -272,6 +216,8 @@
     padding-left: 0px;
   }
 }
+
+
 
 @media (max-width: 576px) {
   .tokyo_tm_portfolio {
