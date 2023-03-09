@@ -30,8 +30,6 @@ const Absence = () => {
               <div className={styles.absence_portfolio_view}>
                 {photos.map((photo) => (
                   <li data-aos="fade-right" data-aos-duration="1200">
-                    <div>
-                      <div>
                         <a>
                           <Tooltip
                             hideArrow
@@ -51,8 +49,6 @@ const Absence = () => {
                             />
                           </Tooltip>
                         </a>
-                      </div>
-                    </div>
                   </li>
                 ))}
               </div>

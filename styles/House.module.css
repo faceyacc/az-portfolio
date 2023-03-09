@@ -230,6 +230,10 @@
     margin-left: 6%;
     margin-top: 5%;
   }
+
+  .absence_title h3 {
+    margin-left: 30%;
+  }
 }
 
 /* @media (max-width: 300px)  */
