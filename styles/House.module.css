@@ -271,19 +271,6 @@
     width: 100%;
     padding-left: 0px;
   }
-
-  .tokyo_tm_portfolio .absence_portfolio_view img {
-    margin-left: 12%;
-    width: 46%;
-  }
-
-  .series_title .absence_title  h3 {
-    margin-left: 42%;
-  }
-  
-
-
-
 }
 
 @media (max-width: 576px) {
@@ -296,19 +283,6 @@
   .series_title_w p {
     margin-left: 6%;
     margin-top: 5%;
-  }
-
-  .absence_title h3 {
-    position: absolute;
-    margin-top: -1%;
-    margin-right: 5%;
-  }
-
-  .tokyo_tm_portfolio .absence_portfolio_view img {
-    margin-left: 5%;
-    margin-top: 5%;
-    width: 25%;
-    
   }
 }
 
