@@ -39,10 +39,9 @@
 
 .image_container_a.open img  {
   position: fixed;
-  width: 40% !important;
-  margin-left: 44%;
+  width: 70% !important;
+  margin-top: -6%;
   z-index: 7;
-  transform: scale(.9) !important;
 }
 
 
@@ -385,6 +384,15 @@
     margin-left: 5%;
     margin-top: 50%;
     z-index: 7;
+  }
+
+  .image_container_a.open img  {
+    position: fixed;
+    height: 70%;
+    width: 90% !important;
+    margin-top: 50%;
+    left: -10%;
+    z-index: 100;
   }
   
 }
