@@ -29,8 +29,8 @@ const ImageLightBox = ({ src }) => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div>
-      <li>
+    <div >
+      <li >
         <div className={styles.inner}>
             <div
               className={`${styles.image_container} ${

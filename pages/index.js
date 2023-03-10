@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import web3 from '../public/assets/web3.gif';
 import Image from "next/image";
+import Social  from '../components/social'
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -32,6 +33,7 @@ export default function Home() {
               art, design, animation & more! We are an artist-duo that enjoys
               creating and building anything between the letters A to Z.
             </p>
+              <Social />
           </div>
         </div>
       </div>
