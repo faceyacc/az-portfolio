@@ -388,12 +388,21 @@
 
   .image_container_a.open img  {
     position: fixed;
-    height: 60%;
+    height: 70%;
     width: 90% !important;
     margin-top: 60%;
     left: -12%;
     z-index: 100;
   }
+
+  .image_container_a {
+    position: relative;
+    width: 140%;
+    height: 120% !important;
+    right: 65px;
+    cursor: zoom-in;
+  }
+  
 
   
   
