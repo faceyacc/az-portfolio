@@ -48,7 +48,7 @@ const Absence = () => {
         <div className={styles.tokyo_tm_title}>
           <div className={styles.series_title}>
             <div className={styles.absence_title}>
-              <h3 data-aos="fade-down" data-aos-duration="1200">
+              <h3>
                 Absence
               </h3>
             </div>
