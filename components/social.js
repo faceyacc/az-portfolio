@@ -23,15 +23,15 @@ const Social = () => {
   return (
     <>
       <ul className={styles.social}>
-        <li>
           <a href="https://www.instagram.com/a.to.zstudio">
+        <li>
             <img
               className={styles.svg}
               src={"/assets/svg/social/instagram.svg"}
               alt={"social"}
             />
-          </a>
         </li>
+          </a>
       </ul>
       {/* END SOCIAL */}
     </>
