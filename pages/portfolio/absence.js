@@ -59,11 +59,11 @@ const Absence = () => {
         <div className={styles.portfolio_filter}>
           {/* END TABLIST */}
           <div className={styles.list_wrapper}>
-            {/* <div className={styles.absence_portfolio_view}> */}
+            <div className={styles.absence_portfolio_view}>
               {photos.map((photo) => (
                 <ImageLightBox src={photo.src} />
               ))}
-            {/* </div> */}
+            </div>
           </div>
         </div>
       </div>
