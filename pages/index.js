@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import bia from '../public/assets/BIA1.gif';
-import webanim from '../public/assets/webanim.mp4';
+import web3 from '../public/assets/web3.gif';
 import Image from "next/image";
 
 
@@ -14,12 +13,12 @@ export default function Home() {
         <div className={styles.home_content}>
           <div className={styles.avatar}>
             <div className={styles.image}>
-              {/* <Image src={bia} className={styles.avatar}/> */}
+              <Image src={web3} className={styles.avatar}/>
               
-              {/* <video autoPlay loop src={webanim} /> */}
+              {/* <video autoPlay loop src={webanim} />
               <video autoPlay loop muted style={{ width: '500px', height: '500px' }}>
                 <source src={webanim} type="video/mp4" />
-              </video>
+              </video> */}
               
             </div>
           </div>

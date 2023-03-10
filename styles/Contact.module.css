@@ -3,10 +3,10 @@
   height: auto;
   clear: both;
   float: left;
-  margin-bottom: 62px;
+  margin-bottom: 65px;
 }
 .closed_comissions {
-  padding: 100px 0px 100px 0px !important;
+  padding: 100px 0px 0px 0px;
 }
 
 .tokyo_tm_title h3 {
@@ -192,5 +192,13 @@
 @media (max-width: 576px) {
   .tokyo_tm_contact {
     padding-bottom: 100px;
+  }
+
+  .tokyo_tm_title {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 0px;
   }
 }
