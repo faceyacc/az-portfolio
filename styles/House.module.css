@@ -356,11 +356,28 @@
     margin-top: 5%;
     z-index: 7;
   }
+
+
+  .image_container_a.open img  {
+    position: fixed;
+    height: 85%;
+    width: 70% !important;
+    margin-top: 20%;
+    z-index: 100;
+  }
+
+  .image_container_a {
+    position: relative;
+    width: 80%;
+    height: 120% !important;
+    left: 10%;
+    cursor: zoom-in;
+  }
 }
 
 
 
-@media (max-width: 576px) {
+@media (max-width: 576px) {767
   .tokyo_tm_portfolio {
     padding-bottom: 70px;
   }
@@ -401,10 +418,27 @@
     height: 120% !important;
     cursor: zoom-in;
   }
-  
-
-  
-  
 }
 
-/* @media (max-width: 300px)  */
+@media (max-width: 300px) {
+
+  .absence_title h3 {
+    margin-left: 25%;
+  }
+
+  .image_container_a.open img  {
+    position: fixed;
+    height: 70%;
+    width: 90% !important;
+    margin-top: 60%;
+    left: -12%;
+    z-index: 100;
+  }
+
+  .image_container_a {
+    position: relative;
+    width: 100%;
+    height: 120% !important;
+    cursor: zoom-in;
+  }
+}
