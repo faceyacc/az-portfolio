@@ -65,11 +65,17 @@
         text-align: center;
       }
       .tokyo_tm_home .avatar {
-        margin-bottom: 30px;
+        /* margin-bottom: px; */
       }
       .tokyo_tm_home .details {
         margin-left: 0px;
       }
+
+      .tokyo_tm_home .details .job {
+        max-width: 500px;
+        font-size: 14px;
+      }
+
 }
 
 @media (max-width: 767px) {
@@ -86,7 +92,7 @@
         font-style: italic;
         font-weight: 400;
         max-width: 340px;
-        margin-bottom: 45px;
+        margin-bottom: 65px;
         font-size: 13px;
       }
     

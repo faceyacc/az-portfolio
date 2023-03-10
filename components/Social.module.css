@@ -1,0 +1,57 @@
+.tokyo_tm_home .social {
+    width: 100%;
+    float: left;
+  }
+  .social {
+    margin: 0px;
+    list-style-type: none;
+  }
+  .social li {
+    margin: 0px 15px 0px 0px;
+    display: inline-flex;
+  }
+  .social li:last-child {
+    margin-right: 0px;
+  }
+  .social li a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease-in-out;
+  }
+  .social li a:hover {
+    filter: opacity(0.7);
+    transform: translateY(-5px);
+  }
+  .social li .svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  .svg {
+    fill: currentcolor;
+    width: 15px;
+    height: 15px;
+  }
+  img.svg {
+    width: 15px;
+    height: 15px;
+  }
+
+
+/*---------------------------------------------------*/
+/* MEDIA QUERIES - FOR SMALL DEVIVES
+/*---------------------------------------------------*/
+
+
+
+
+@media (max-width: 1040px) {
+    img.svg {
+        position: absolute;
+        top: 88%;
+        right: 48%;
+        /* display: block; */
+        /* margin-left: auto; */
+        /* margin-right: auto */
+    }
+}
