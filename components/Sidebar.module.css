@@ -41,8 +41,7 @@
 }
 
 .tokyo_tm_all_wrap .leftpart img {
-  /* max-width: 150px; */
-  max-width: 250px;
+  max-width: 150px;
 }
 
 .tokyo_tm_all_wrap .leftpart .menu {
@@ -98,8 +97,7 @@
 }
 
 .menu_content {
-  /* font-size: 15px; */
-  font-size: 20px;
+  font-size: 15px;
   display: inline-block;
   margin-top: 5px;
   line-height: 1;
@@ -305,7 +303,7 @@
     text-align: center;
   }
   .tokyo_tm_home .avatar {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .tokyo_tm_home .details {
     margin-left: 0px;

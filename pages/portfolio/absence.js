@@ -11,51 +11,49 @@ const Absence = () => {
 
   return (
     <>
- 
-        <div className={styles.tokyo_tm_portfolio}>
-          <div className={styles.tokyo_tm_title}>
-            <div className={styles.series_title}>
-              <div className={styles.absence_title}>
-                <h3 data-aos="fade-down" data-aos-duration="1200">
-                  Absence
-                </h3>
-              </div>
-            </div>
-          </div>
-          {/* END TOKYO_TM_TITLE */}
-
-          <div className={styles.portfolio_filter}>
-            {/* END TABLIST */}
-            <div className={styles.list_wrapper}>
-              <div className={styles.absence_portfolio_view}>
-                {photos.map((photo) => (
-                  <li data-aos="fade-right" data-aos-duration="1200">
-                        <a>
-                          <Tooltip
-                            hideArrow
-                            content={photo.alt}
-                            css={{
-                              color: "white",
-                              backgroundColor: "black",
-                              marginTop: "40%",
-                              borderRadius: "0px",
-                            }}
-                          >
-                            <img
-                              src={photo.src}
-                              alt={photo.alt}
-                              data-tip
-                              data-for="shot"
-                            />
-                          </Tooltip>
-                        </a>
-                  </li>
-                ))}
-              </div>
+      <div className={styles.tokyo_tm_portfolio}>
+        <div className={styles.tokyo_tm_title}>
+          <div className={styles.series_title}>
+            <div className={styles.absence_title}>
+              <h3 data-aos="fade-down" data-aos-duration="1200">
+                Absence
+              </h3>
             </div>
           </div>
         </div>
-      
+        {/* END TOKYO_TM_TITLE */}
+
+        <div className={styles.portfolio_filter}>
+          {/* END TABLIST */}
+          <div className={styles.list_wrapper}>
+            <div className={styles.absence_portfolio_view}>
+              {photos.map((photo) => (
+                <li data-aos="fade-right" data-aos-duration="1200">
+                  <a>
+                    <Tooltip
+                      hideArrow
+                      content={photo.alt}
+                      css={{
+                        color: "white",
+                        backgroundColor: "black",
+                        marginTop: "40%",
+                        borderRadius: "0px",
+                      }}
+                    >
+                      <img
+                        src={photo.src}
+                        alt={photo.alt}
+                        data-tip
+                        data-for="shot"
+                      />
+                    </Tooltip>
+                  </a>
+                </li>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
