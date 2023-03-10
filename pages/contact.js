@@ -69,10 +69,10 @@ const ClosedComissions = () => {
      
 
       <div class="mt-48 text-center font-family: Poppins">
-        <h1 class=" text-2xl text-gray-900 md:text-4xl lg:text-3xl dark:text-grey mb-10">
+        <h1 class=" text-2xl text-gray-900 md:text-4xl lg:text-2xl dark:text-grey mb-10">
           Commissions are CLOSED
         </h1>
-        <p class="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400 font-light">
+        <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400 font-light">
           Hi! We are excited to announce that we are accepting commission orders
           on:
         </p>
@@ -81,12 +81,12 @@ const ClosedComissions = () => {
           Friday <br/>
           12 PM EST
         </p>
-        <p class="mb-4 text-md font-normal text-gray-500 dark:text-gray-400 font-light">
+        <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400 font-light">
           Please note: we conduct a limited First Come, First Serve basis. If
           you did not make your order on time, you will be placed in our
           Waitlist.
         </p>
-        <p class="mb-4 text-md font-normal text-black-500 dark:text-gray-400 font-light">
+        <p class="text-sm font-normal text-black-500 dark:text-gray-400 font-light">
           For inquiries, please email us at <a text-gray-200 href="mailto:atozstudio2023@gmail.com">atozstudio2023@gmail.com</a>
         </p>
       </div>
