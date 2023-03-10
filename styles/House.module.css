@@ -48,20 +48,6 @@
   object-fit: fill !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .image_container {
   position: relative;
   width: 100%;
@@ -467,27 +453,27 @@
   }
 
   .absence_title h3 {
-    margin-left: 30%;
+    margin-left: 35%;
   }
 
   .image_container_a.open img  {
     position: fixed;
-    width: 70% !important;
-    height: 40% !important;
+    width: 60% !important;
+    height: 45% !important;
     top: 30%;
-    margin-left: -4%;
+    margin-left: 1%;
     /* margin-top: 50%; */
     z-index: 7;
   }
 
-  .image_container_a {
+  /* .image_container_a {
     position: relative;
     width: 170%;
     padding-top: 120%;
     cursor: zoom-in;
     margin-bottom: -35%;
     left: -8%;
-  }
+  } */
   
 }
 
