@@ -3,10 +3,10 @@
   height: auto;
   clear: both;
   float: left;
-  margin-bottom: 62px;
+  margin-bottom: 45px;
 }
 .closed_comissions {
-  padding: 100px 0px 100px 0px !important;
+  padding: 100px 0px 0px 0px;
 }
 
 .tokyo_tm_title h3 {
