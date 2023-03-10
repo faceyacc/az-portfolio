@@ -377,7 +377,7 @@
 
 
 
-@media (max-width: 576px) {767
+@media (max-width: 576px) {
   .tokyo_tm_portfolio {
     padding-bottom: 70px;
   }
@@ -405,16 +405,16 @@
 
   .image_container_a.open img  {
     position: fixed;
-    height: 70%;
+    height: 80%;
     width: 90% !important;
-    margin-top: 50%;
+    margin-top: 30%;
     left: -12%;
     z-index: 100;
   }
 
   .image_container_a {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     height: 120% !important;
     cursor: zoom-in;
   }
