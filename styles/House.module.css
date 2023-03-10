@@ -235,9 +235,36 @@
 /* MEDIA QUERIES - FOR SMALL DEVIVES
 /*---------------------------------------------------*/
 
+
+@media (max-width: 1600px) {
+  /* .tokyo_tm_portfolio{
+    padding-top: 140px;
+  } */
+
+  .image_container.open img  {
+    position: fixed;
+    width: 55% !important;
+    height: 100% !important;
+    margin-left: 38.6%;
+    /* margin-top: 1%; */
+    z-index: 7;
+  }
+}
+
+
+
 @media (max-width: 1200px) {
     .tokyo_tm_portfolio{
       padding-top: 140px;
+    }
+
+    .image_container.open img  {
+      position: fixed;
+      width: 70% !important;
+      height: 90% !important;
+      margin-left: 15%;
+      margin-top: 6.5%;
+      z-index: 7;
     }
 }
 
@@ -248,6 +275,15 @@
       }
       .tokyo_tm_title .portfolio_filter {
         padding-top: 48px;
+      }
+
+      .image_container.open img  {
+        position: fixed;
+        width: 70% !important;
+        height: 90% !important;
+        margin-left: 14%;
+        margin-top: 6.5%;
+        z-index: 7;
       }
 }
 
@@ -262,6 +298,14 @@
   .tokyo_tm_portfolio .portfolio_list li {
     width: 100%;
     padding-left: 0px;
+  }
+  .image_container.open img  {
+    position: fixed;
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: 0%;
+    margin-top: 5%;
+    z-index: 7;
   }
 }
 
@@ -282,6 +326,17 @@
   .absence_title h3 {
     margin-left: 30%;
   }
+
+
+  .image_container.open img  {
+    position: fixed;
+    width: 100% !important;
+    height: 60% !important;
+    margin-left: 0%;
+    margin-top: 50%;
+    z-index: 7;
+  }
+  
 }
 
 /* @media (max-width: 300px)  */
