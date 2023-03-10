@@ -66,21 +66,9 @@ const Forms = () => {
 const ClosedComissions = () => {
   return (
     <>
-      <div className={styles.closed_comissions}>
-          <div className={styles.tokyo_tm_title}>
-            <div className={styles.title_flex}>
-              <div className={styles.left}>
-                <span>Contact + Commission</span>
-                <h3>Get in Touch</h3>
-                <h8>Interested in commission? Let's get in touch!</h8>
-              </div>
-            </div>
-          </div>
-          {/* END TITLE */}
-          {/* END FIELDS */}
-      </div>
+     
 
-      <div class=" text-center font-family: Poppins">
+      <div class="mt-20 text-center font-family: Poppins">
         <h1 class=" text-2xl text-gray-900 md:text-4xl lg:text-3xl dark:text-grey mb-10">
           Commissions are CLOSED
         </h1>
