@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './Social.module.css'
+import styles from "./Social.module.css";
 
 const SocialShare = [
   // {
@@ -17,22 +17,21 @@ const SocialShare = [
   //   link: "https://www.tiktok.com/",
   // },
 ];
+
+
 const Social = () => {
   return (
     <>
       <ul className={styles.social}>
-        {SocialShare.map((val, i) => (
-          <li key={i}>
-            <a href={`${val.link}`} target="_blank" rel="noreferrer">
-              <img
-                className={styles.svg}
-                src={`/assets/svg/social/${val.iconName}.svg`}
-                alt="social"
-              ></img>
-              
-            </a>
-          </li>
-        ))}
+        <li>
+          <a href="https://www.instagram.com/a.to.zstudio">
+            <img
+              className={styles.svg}
+              src={"/assets/svg/social/instagram.svg"}
+              alt={"social"}
+            />
+          </a>
+        </li>
       </ul>
       {/* END SOCIAL */}
     </>

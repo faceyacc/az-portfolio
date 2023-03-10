@@ -27,7 +27,6 @@
     height: 17px;
   }
 
-
   .svg {
     fill: currentcolor;
     width: 15px;
@@ -43,10 +42,16 @@
 /* MEDIA QUERIES - FOR SMALL DEVIVES
 /*---------------------------------------------------*/
 
+
+
+
 @media (max-width: 1040px) {
     img.svg {
         position: absolute;
-        /* margin-bottom: 100%; */
-        top: 90%;
+        top: 88%;
+        right: 49%;
+        /* display: block; */
+        /* margin-left: auto; */
+        /* margin-right: auto */
     }
 }
