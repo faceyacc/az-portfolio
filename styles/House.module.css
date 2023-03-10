@@ -388,9 +388,9 @@
 
   .image_container_a.open img  {
     position: fixed;
-    height: 80%;
+    height: 60%;
     width: 90% !important;
-    margin-top: 30%;
+    margin-top: 60%;
     left: -12%;
     z-index: 100;
   }
