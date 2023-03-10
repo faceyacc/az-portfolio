@@ -406,7 +406,7 @@
   .image_container_a.open img  {
     position: fixed;
     /* height: 80%; */
-    height: 60%;
+    height: 80%;
     width: 90% !important;
     margin-top: 45%;
     left: -12%;
