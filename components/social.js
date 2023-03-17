@@ -22,8 +22,8 @@ const SocialShare = [
 const Social = () => {
   return (
     <>
-      <ul className={styles.social}>
           <a href="https://www.instagram.com/a.to.zstudio">
+      <ul className={styles.social}>
         <li>
             <img
               className={styles.svg}
@@ -31,8 +31,8 @@ const Social = () => {
               alt={"social"}
             />
         </li>
-          </a>
       </ul>
+          </a>
       {/* END SOCIAL */}
     </>
   );
