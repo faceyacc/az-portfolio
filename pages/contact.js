@@ -32,7 +32,7 @@ const Forms = () => {
         <div className={styles.tokyo_tm_title}>
           <div className={styles.title_flex}>
             <div className={styles.left}>
-              <span>Contact + Commission</span>
+              <span>Contact + Commissions</span>
               <h3>Get in Touch</h3>
               <h8>Interested in commission? Let's get in touch!</h8>
             </div>
