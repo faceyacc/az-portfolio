@@ -1,7 +1,31 @@
 import { useState } from "react";
 import styles from "../styles/Contact.module.css";
+import emailjs from "emailjs-com";
 
 const Forms = () => {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_iq1m0ho",
+        "contact_form",
+        e.target,
+        "R1PEo1p9oXka6IBcz"
+      )
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+
+    e.target.reset();
+  }
+
+
+
   return (
     <>
       <div className={styles.tokyo_tm_contact}>
@@ -17,11 +41,11 @@ const Forms = () => {
         {/* END TITLE */}
 
         <div className={styles.fields}>
-          <form>
+          <form onSubmit={sendEmail}>
             <div className={styles.first}>
               <ul>
                 <li>
-                  <input type="text" name="name" placeholder="Name" />
+                  <input type="text" name="from_name" placeholder="Name" />
                 </li>
                 {/* END FIRST NAME */}
 
@@ -35,7 +59,7 @@ const Forms = () => {
                 {/* END EMAIL */}
 
                 <li>
-                  <input type="text" name="name" placeholder="Subject" />
+                  <input type="text" name="from_subject" placeholder="Subject" />
                 </li>
 
                 <li>
@@ -95,7 +119,7 @@ const ClosedComissions = () => {
 };
 
 const Absence = () => {
-  const [showForm, setShowForm] = useState(false);
+  const [showForm, setShowForm] = useState(true);
 
   return <>{showForm ? <Forms /> : <ClosedComissions />}</>;
 };
